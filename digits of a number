@@ -1,0 +1,22 @@
+import.java.util.*;
+
+public class main{
+public static void main(String[] args){
+scanner scn = new Scanner(System.in);
+int n = Scn.nextInt();
+
+int nod = 0;
+int temp = n;
+while(temp != 0){
+temp = temp / 10;
+nod++;
+}
+
+int div = (int)Math.pow(10, nod - 1); // this is use when u don't want answer in decimal
+while(div != 0){
+int  q = n / div;
+System.out.println(q);
+
+n = n % div;
+div = div / 10;
+
