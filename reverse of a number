@@ -1,0 +1,14 @@
+int n = scn.nextInt();
+
+while(n > 0){
+int dig = n % 10; // we will get our remainder 
+n = n % 10; //  in this we will do short to our number
+System.out.println(dig);
+
+
+
+input 987
+output 
+7
+8
+9
