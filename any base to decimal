@@ -17,3 +17,10 @@ rv += dig * p;
 p = p * b;
 }
 return rv;
+
+input 
+1172
+10
+
+output 
+634
